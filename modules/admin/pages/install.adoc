@@ -16,7 +16,7 @@
 [#linux]
 == Установка на Linux
 
-include::6.1@platform:admin:partial$install.adoc[]
+include::dev@platform:admin:partial$install.adoc[]
 +
 Дополнительные настройки выполнять не требуется.
 +
@@ -66,7 +66,7 @@ image::install-server-license.png[Условия лицензионного со
 . Выполните загрузку библиотек карточек модуля в БД.
 . Перезапустите *{sss-new}*.
 . Выполните загрузку настроек модуля в БД.
-. [[solution]]Импортируйте решения с помощью панели управления {wc}ом, подробнее см. в разделе "xref:6.1@webclient:admin:control-panel-solutions.adoc[]".
+. [[solution]]Импортируйте решения с помощью панели управления {wc}ом, подробнее см. в разделе "xref:dev@webclient:admin:control-panel-solutions.adoc[]".
 . После импорта стандартных решений перезапустите сервис *{wcs-new}*. В противном случае при создании карточки с ЭУ `_Дело_` блок, в который ЭУ добавлен, может быть скрыт.
 . Для работы с модулем {am} в программе {kvr} выберите разметку меню _DocumentManagement_Nomenclature_.
 
