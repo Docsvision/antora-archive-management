@@ -10,15 +10,15 @@
 
 В подразделах первого уровня может быть создано произвольное количество подразделов следующих уровней. Глубина вложенности не ограничена.
 
-include::6.1@webclient:user:partial$excerpts.adoc[tags=foldUnfoldDir]
+include::dev@webclient:user:partial$excerpts.adoc[tags=foldUnfoldDir]
 
 Посмотреть информацию об уже созданном разделе можно из пункта _Информация_ контекстного меню раздела или на вкладке _Информация_ в правой области справочника.
 
 .Окно просмотра информации о разделе
-image::6.1@webclient:user:section-info.png[Окно просмотра информации о разделе]
+image::dev@webclient:user:section-info.png[Окно просмотра информации о разделе]
 
 .Вкладка "Информация"
-image::6.1@webclient:user:nomenclature-section-info.png[Вкладка "Информация"]
+image::dev@webclient:user:nomenclature-section-info.png[Вкладка "Информация"]
 
 [#createNewSection]
 == Создать новый раздел номенклатуры дел
@@ -26,11 +26,11 @@ image::6.1@webclient:user:nomenclature-section-info.png[Вкладка "Инфо
 .Чтобы создать новый раздел:
 
 . Из выпадающего списка в левой части номенклатуры дел выберите год, в который желаете добавить раздел.
-include::6.1@webclient:user:partial$excerpts.adoc[tags=createMethods]
+include::dev@webclient:user:partial$excerpts.adoc[tags=createMethods]
 . Заполните <<sectionFields,поля>> нового раздела.
 . Создайте желаемое количество разделов.
 . Создавайте подразделы, повторяя шаги 1-3.
-Создать подраздел можно при помощи элемента управления image:6.1@webclient:user:buttons/blue-plus.png[Плюс в круге] или из пункта _Создать подраздел_ контекстного меню.
+Создать подраздел можно при помощи элемента управления image:dev@webclient:user:buttons/blue-plus.png[Плюс в круге] или из пункта _Создать подраздел_ контекстного меню.
 
 Создавайте дочерние разделы до получения желаемой иерархической структуры.
 
@@ -44,7 +44,7 @@ include::6.1@webclient:user:partial$excerpts.adoc[tags=createMethods]
 . Измените раздел одним из доступных способов:
 +
 * Выберите в контекстном меню раздела пункт _Редактировать_.
-* При помощи элемента управления image:6.1@webclient:user:buttons/blue-pencil.png[Карандаш в круге] на вкладке _Информация_ в правой области справочника.
+* При помощи элемента управления image:dev@webclient:user:buttons/blue-pencil.png[Карандаш в круге] на вкладке _Информация_ в правой области справочника.
 +
 . Измените <<sectionFields,поля>> `Индекс раздела`, `Ответственное подразделение` или `Сотрудники, ответственные за раздел`.
 . Сохраните изменения, нажав кнопку *Сохранить*.
@@ -83,7 +83,7 @@ WARNING: Разделы удаляются со всеми дочерними э
 Каждый раздел номенклатуры дел содержит обязательные для заполнения строки:
 
 .Стандартные поля раздела номенклатуры дел
-image::6.1@webclient:user:nomenclature-section-lines.png[Стандартные поля раздела номенклатуры дел]
+image::dev@webclient:user:nomenclature-section-lines.png[Стандартные поля раздела номенклатуры дел]
 
 [#index]
 [horizontal]
