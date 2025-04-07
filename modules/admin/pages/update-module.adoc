@@ -1,6 +1,6 @@
-= Обновление модуля
+:update: archivemanagement
 
-:update: archivemanagement-*
+= Обновление модуля
 
 include::webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 
