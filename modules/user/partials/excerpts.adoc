@@ -1,0 +1,3 @@
+// tag::foldUnfoldDir[]
+Чтобы раскрыть {element}, нажмите на image:5.5.17@webclient:user:buttons/unfold.png[Плюс] слева от его названия. Чтобы свернуть {element}, нажмите на image:5.5.17@webclient:user:buttons/fold.png[Минус]. При нажатии левой кнопкой мыши, {element} переходит в фокус, в правой области справочника отображается {things}.
+// end::foldUnfoldDir[]
