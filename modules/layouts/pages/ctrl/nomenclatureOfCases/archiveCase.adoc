@@ -6,7 +6,7 @@ include::6.1@webclient:user:partial$excerpts.adoc[tags=noam]
 
 include::6.1@webclient:layouts:partial$properties.adoc[tags=dependsOn]
 
-include::6.1@webclient:layouts:artial$edit-modes.adoc[tags=edit]
+include::6.1@webclient:layouts:partial$edit-modes.adoc[tags=edit]
 +
 В режиме `Редактирование` поддерживается быстрый поиск и выбор из _Справочника_.
 +
