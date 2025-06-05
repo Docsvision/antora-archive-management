@@ -1,0 +1,31 @@
+= Справочник номенклатуры дел
+
+ЭУ `_Справочник номенклатуры дел_` предназначен для работы администраторов. Справочник открывает возможности создания иерархической структуры разделов для xref:user:cases.adoc#createCase[создания] дел и xref:5.5.17@webclient:layouts:guide-add-case-control.adoc[списания] документов в дело, просмотра документов, списанных в дело.
+
+.Представление "Справочника номенклатуры дел"
+image::5.5.17@webclient:layouts:nomenclature-directory.png[Представление "Справочника номенклатуры дел"]
+
+[NOTE]
+====
+Элемент управления становится доступным только после установки компонентов модуля _{am}_.
+====
+
+== Свойства
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=general]
+
+=== Поведение
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=visibility]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=addCss]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=stdCss]
+
+=== События
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=mouseOver]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=mouseAway]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=onClick]

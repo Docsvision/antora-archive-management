@@ -1,0 +1,52 @@
+= Отображение документов
+
+NOTE: Элемент управления `_Отображение документов_` доступен только для карточки `_Архивное дело_` и только при установке модуля _{am}_.
+
+ЭУ выводит все документы, добавленные в дело из первого найденного тома данного тела. Том создаётся автоматически при добавлении в дело первого документа.
+
+.Элемент управления "Отображение документов"
+image::5.5.17@webclient:layouts:document-view-control.png[Элемент управления "Отображение документов"]
+
+== Свойства
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=general]
+
+=== Внешний вид
+
+==== Заголовок
+
+Текст, отображаемый в заголовке данного ЭУ.
+
+`*Локализуемый*`
+
+==== Метод описания
+
+Определяет способ формирования информации о ссылке на карточку в колонке _Наименование_:
+
+* *_Стандартный (дайджест)_*. В таблице будет отображаться дайджест карточки.
+* *_Расширенный отчёт_*. В таблице будет отображаться информация о карточке, возвращаемая серверным расширением {wc}а. Для этого в свойстве `*Наименование метода для описания*` должно быть указано название метода, предоставляемого расширением.
+* *_Разметка_*. В таблице будет отображаться информация о карточке, формируемая разметкой с режимом выбора *_Описание_*. Если у карточки, на которую указывает ссылка, отсутствует разметка с режимом выбора *_Описание_*, в ссылке будет использоваться дайджест карточки.
++
+Использование метода *_Разметка_* аналогично рассмотренному для xref:5.5.17@webclient:layouts:ctrl/special/linksLinkDescription.adoc#layout[ЭУ ссылки].
+
+=== Поведение
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=visibility]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=addCss]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=editOperationForVisibility]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=byTab]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=openMode]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=stdCss]
+
+=== События
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=mouseOver]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=mouseAway]
+
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=onClick]
