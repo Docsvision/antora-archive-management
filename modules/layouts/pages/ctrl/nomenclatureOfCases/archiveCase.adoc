@@ -1,24 +1,24 @@
 = Дело
 
-include::user:partial$excerpts.adoc[tags=noam]
+include::6.1@webclient:user:partial$excerpts.adoc[tags=noam]
 
 Элемент управления `_Дело_` предназначен для списания текущего документа в выбранное дело _Справочника номенклатуры дел_.
 
-include::partial$properties.adoc[tags=dependsOn]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=dependsOn]
 
-include::partial$edit-modes.adoc[tags=edit]
+include::p6.1@webclient:layouts:artial$edit-modes.adoc[tags=edit]
 +
 В режиме `Редактирование` поддерживается быстрый поиск и выбор из _Справочника_.
 +
 .Элемент управления "Дело" в режиме редактирования
-image::case.png[Элемент управления "Дело" в режиме редактирования]
+image::6.1@webclient:layouts:case.png[Элемент управления "Дело" в режиме редактирования]
 +
 [NOTE]
 ====
 Поиск осуществляется по заголовку и индексу всех дел справочника, а также по наименованию и индексу разделов. Быстрый поиск по умолчанию осуществляется по наиболее близкому к текущей дате году. Чтобы выбрать дело из другого года, необходимо перейти в справочник;
 ====
 +
-include::partial$edit-modes.adoc[tags=editInPlace]
+include::6.1@webclient:layouts:partial$edit-modes.adoc[tags=editInPlace]
 +
 Выбрать и изменить дела можно нажатием на ссылку в ЭУ. Поиск и выбор осуществляется аналогично поиску и выбору для режима *_Редактирование_*.
 +
@@ -28,16 +28,16 @@ include::partial$edit-modes.adoc[tags=editInPlace]
 ====
 +
 .Элемент управления "Дело" в режиме редактирования по месту
-image::written-off-to-case-place-mode.png[Элемент управления "Дело" в режиме редактирования по месту]
+image::6.1@webclient:layouts:written-off-to-case-place-mode.png[Элемент управления "Дело" в режиме редактирования по месту]
 +
-include::partial$edit-modes.adoc[tags=noEdit]
+include::6.1@webclient:layouts:partial$edit-modes.adoc[tags=noEdit]
 +
 .Элемент управления "Дело" в режиме без редактирования
-image::user:written-off.png[Элемент управления "Дело" в режиме без редактирования]
+image::6.1@webclient:user:written-off.png[Элемент управления "Дело" в режиме без редактирования]
 
 == Свойства
 
-include::partial$properties.adoc[tags=general]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=general]
 
 === Внешний вид
 
@@ -47,9 +47,9 @@ include::partial$properties.adoc[tags=general]
 
 `*Локализуемый*`
 
-include::partial$properties.adoc[tags=displayLabelWithoutDefinition]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=displayLabelWithoutDefinition]
 
-include::partial$properties.adoc[tags=hint]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=hint]
 
 ==== Показывать год
 
@@ -61,13 +61,13 @@ include::partial$properties.adoc[tags=hint]
 //
 //`*Локализуемый*`
 
-include::partial$properties.adoc[tags=labelText]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=labelText]
 
 === Данные
 
-include::partial$properties.adoc[tags=extendedDataSource]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=extendedDataSource]
 
-include::partial$properties.adoc[tags=dataSource]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=dataSource]
 
 Ссылка на списанный в дело документ всегда будет добавлена в дело. Если в свойствах ЭУ `_Дело_` указать источник данных, в карточку "Документ" будет дополнительно добавлена ссылка на карточку "Дело", в которое документ был списан. Если не указан "Источник данных", ссылка на "Дело" добавлена не будет.
 
@@ -79,32 +79,32 @@ include::partial$properties.adoc[tags=dataSource]
 
 Для отображения ссылки в карточке дела сохраняются следующие поля карточки документа: _RefDocument_, _Digest_ и _Registered_ (необходима привязка к полю _RefCardID_ -- _Архивное дело_).
 
-include::partial$properties.adoc[tags=editOperation]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=editOperation]
 
 Если в настройках ЭУ `_Дело_` раздел Данные не заполнен, то при добавлении документа в дело, информация о списанном документе появляется в карточке дела, а ссылка на дело в карточку документа не добавляется.
 
 === Поведение
 
-include::partial$properties.adoc[tags=visibility]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=visibility]
 
-include::partial$properties.adoc[tags=addCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=addCss]
 
-include::partial$properties.adoc[tags=searchDelay]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=searchDelay]
 По умолчанию 500 мс.
 
-include::partial$properties.adoc[tags=mandatory]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mandatory]
 
-include::partial$properties.adoc[tags=editOperationForVisibility]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=editOperationForVisibility]
 
-include::partial$properties.adoc[tags=disabled]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=disabled]
 
-include::partial$properties.adoc[tags=byTab]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=byTab]
 
-include::partial$properties.adoc[tags=icon]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=icon]
 
-include::partial$properties.adoc[tags=editMode]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=editMode]
 
-include::partial$properties.adoc[tags=stdCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=stdCss]
 
 === События
 
@@ -136,7 +136,7 @@ include::partial$properties.adoc[tags=stdCss]
 
 Вызывается после загрузки результатов поиска.
 
-include::partial$properties.adoc[tags=dataChanged]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=dataChanged]
 
 ==== После закрытия формы выбора дела
 
@@ -150,12 +150,12 @@ include::partial$properties.adoc[tags=dataChanged]
 
 Вызывается после удаления значения элемента управления.
 
-include::partial$properties.adoc[tags=mouseOver]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseOver]
 
-include::partial$properties.adoc[tags=mouseAway]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseAway]
 
-include::partial$properties.adoc[tags=focusGet]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=focusGet]
 
-include::partial$properties.adoc[tags=focusLoose]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=focusLoose]
 
-include::partial$properties.adoc[tags=onClick]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=onClick]

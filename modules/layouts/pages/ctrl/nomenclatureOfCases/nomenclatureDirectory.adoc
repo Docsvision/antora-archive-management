@@ -1,12 +1,12 @@
 = Справочник номенклатуры дел
 
-include::user:partial$excerpts.adoc[tags=noam]
+include::6.1@webclient:user:partial$excerpts.adoc[tags=noam]
 
 ЭУ `_Справочник номенклатуры дел_` предназначен для работы администраторов. Справочник открывает возможности создания иерархической структуры разделов для xref:user:cases.adoc#createCase[создания]
 создания дел и xref:guide-add-case-control.adoc[списания] документов в дело, просмотра документов, списанных в дело.
 
 .Представление "Справочника номенклатуры дел"
-image::nomenclature-directory.png[Представление "Справочника номенклатуры дел"]
+image::6.1@webclient:layouts:nomenclature-directory.png[Представление "Справочника номенклатуры дел"]
 
 [NOTE]
 ====
@@ -15,20 +15,20 @@ image::nomenclature-directory.png[Представление "Справочни
 
 == Свойства
 
-include::partial$properties.adoc[tags=general]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=general]
 
 === Поведение
 
-include::partial$properties.adoc[tags=visibility]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=visibility]
 
-include::partial$properties.adoc[tags=addCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=addCss]
 
-include::partial$properties.adoc[tags=stdCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=stdCss]
 
 === События
 
-include::partial$properties.adoc[tags=mouseOver]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseOver]
 
-include::partial$properties.adoc[tags=mouseAway]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseAway]
 
-include::partial$properties.adoc[tags=onClick]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=onClick]

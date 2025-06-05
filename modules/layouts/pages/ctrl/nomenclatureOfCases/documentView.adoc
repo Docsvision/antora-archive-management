@@ -1,17 +1,17 @@
 = Отображение документов
 
-include::user:partial$excerpts.adoc[tags=noam]
+include::6.1@webclient:user:partial$excerpts.adoc[tags=noam]
 
 NOTE: Элемент управления `_Отображение документов_` доступен только для карточки `_Архивное дело_` и только при установке модуля _{am}_.
 
 ЭУ выводит все документы, добавленные в дело из первого найденного тома данного тела. Том создаётся автоматически при добавлении в дело первого документа.
 
 .Элемент управления "Отображение документов"
-image::document-view-control.png[Элемент управления "Отображение документов"]
+image::6.1@webclient:layouts:document-view-control.png[Элемент управления "Отображение документов"]
 
 == Свойства
 
-include::partial$properties.adoc[tags=general]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=general]
 
 === Внешний вид
 
@@ -29,26 +29,26 @@ include::partial$properties.adoc[tags=general]
 * *_Расширенный отчёт_*. В таблице будет отображаться информация о карточке, возвращаемая серверным расширением {wc}а. Для этого в свойстве `*Наименование метода для описания*` должно быть указано название метода, предоставляемого расширением.
 * *_Разметка_*. В таблице будет отображаться информация о карточке, формируемая разметкой с режимом выбора *_Описание_*. Если у карточки, на которую указывает ссылка, отсутствует разметка с режимом выбора *_Описание_*, в ссылке будет использоваться дайджест карточки.
 +
-Использование метода *_Разметка_* аналогично рассмотренному для xref:ctrl/special/linksLinkDescription.adoc#layout[ЭУ ссылки].
+Использование метода *_Разметка_* аналогично рассмотренному для xref:6.1@webclient:layouts:ctrl/special/linksLinkDescription.adoc#layout[ЭУ ссылки].
 
 === Поведение
 
-include::partial$properties.adoc[tags=visibility]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=visibility]
 
-include::partial$properties.adoc[tags=addCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=addCss]
 
-include::partial$properties.adoc[tags=editOperationForVisibility]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=editOperationForVisibility]
 
-include::partial$properties.adoc[tags=byTab]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=byTab]
 
-include::partial$properties.adoc[tags=openMode]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=openMode]
 
-include::partial$properties.adoc[tags=stdCss]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=stdCss]
 
 === События
 
-include::partial$properties.adoc[tags=mouseOver]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseOver]
 
-include::partial$properties.adoc[tags=mouseAway]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=mouseAway]
 
-include::partial$properties.adoc[tags=onClick]
+include::6.1@webclient:layouts:partial$properties.adoc[tags=onClick]
