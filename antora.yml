@@ -13,5 +13,6 @@ nav:
 - modules/common/common.adoc
 - modules/admin/admin.adoc
 - modules/user/user.adoc
+- modules/layouts/layouts.adoc
 
 #  start_page: ROOT:index.adoc
