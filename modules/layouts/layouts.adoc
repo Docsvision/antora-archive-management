@@ -3,3 +3,4 @@
 *** xref:ctrl/nomenclatureOfCases/nomenclatureDirectory.adoc[]
 *** xref:ctrl/nomenclatureOfCases/archiveCase.adoc[]
 *** xref:ctrl/nomenclatureOfCases/documentView.adoc[]
+** xref:guide-add-case-control.adoc[]
