@@ -6,7 +6,6 @@ asciidoc:
   attributes:
     pl-req: 'версии 5.5.4, сборка 6638'
     wc-req: 'версии 5.5.16, сборка 6478'
-    bo-req: 'версии 5.5.5, сборка 8670'
 
 nav:
 - modules/ROOT/nav.adoc
