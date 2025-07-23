@@ -5,7 +5,7 @@ title: Управление архивом
 asciidoc:
   attributes:
     pl-req: 'версии 5.5.4, сборка 6638'
-    wc-req: 'версии 5.5.16, сборка 6478'
+    wc-req: 'версии 5.5.17, сборка 6478'
 
 nav:
 - modules/ROOT/nav.adoc
