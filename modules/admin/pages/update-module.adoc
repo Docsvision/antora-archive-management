@@ -2,6 +2,8 @@
 
 include::webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 
+WARNING: Обновление с версии 5.5.1 до 5.5.2 в данный момент не поддерживается.
+
 [#conditions]
 == Условия обновления
 
