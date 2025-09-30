@@ -41,6 +41,8 @@ include::5.5.17@webclient:layouts:partial$properties.adoc[tags=general]
 
 === Внешний вид
 
+include::./nomenclatureDirectory.adoc[tags=disp]
+
 ==== Заполнитель
 
 Текст, отображаемый в элементе управления, если значение не выбрано.
