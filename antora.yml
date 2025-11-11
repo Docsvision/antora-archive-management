@@ -1,6 +1,6 @@
 name: archivemgmt
-version: '5.5.2'
-prerelease: false
+version: '5.5.2_NP-1888'
+prerelease: true
 title: Управление архивом
 asciidoc:
   attributes:
