@@ -1,1 +1,3 @@
+:page-product-id: 40
+
 include::system::partial$patches.adoc[]
