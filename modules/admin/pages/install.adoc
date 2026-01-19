@@ -60,6 +60,8 @@ image::install-server-license.png[Условия лицензионного со
 
 .Чтобы установить расширение {am} {wc}а:
 . Запустите пакет установки `{dv} ArchiveManagement for web-client.msi`.
++
+WARNING: "{am}" не требует устанавливать `{dv} ArchiveManagement for web-client.msi` на Windows в версии {am-cu-mc}.
 // +
 // .Мастер установки расширения {am} {wc}а
 // image::install-client-hello.png[Мастер установки расширения {am} {wc}а]
