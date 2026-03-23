@@ -1,6 +1,6 @@
 = Дело
 
-include::6.1@webclient:user:partial$excerpts.adoc[tags=noam]
+include::admin:install.adoc[tags=noam]
 
 Элемент управления `_Дело_` предназначен для списания текущего документа в выбранное дело _Справочника номенклатуры дел_.
 
