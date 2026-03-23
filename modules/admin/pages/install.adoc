@@ -19,9 +19,9 @@ include::6.1@workerservice::partial$excerpts.adoc[tags=before-install]
 
 --
 :wt: archivemanagement
-. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:new-admin-console@webclient:admin:install-server.adoc[]".
+. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:6.1@webclient:admin:install-server.adoc[]".
 +
-include::new-admin-console@platform:admin:partial$install.adoc[]
+include::6.1@platform:admin:partial$install.adoc[]
 --
 
 [#web-ext-linux]
@@ -32,9 +32,9 @@ include::new-admin-console@platform:admin:partial$install.adoc[]
 . Если модуль {wc} не установлен, установите {wc}а, инструкция по установке приведена в документации модуля {wc}, раздел "xref:6.1@webclient:admin:install-server.adoc[]".
 . На сервере {wc}а установите _Расширение {am} {wc}а_:
 
-include::new-admin-console@platform:admin:partial$install.adoc[tags=commands]
+include::6.1@platform:admin:partial$install.adoc[tags=commands]
 +
-include::new-admin-console@install-linux:ROOT:partial$restart-and-db.adoc[]
+include::dv6@install-linux:ROOT:partial$restart-and-db.adoc[]
 --
 
 [#windows-server]
@@ -51,7 +51,7 @@ image::install-server-hello.png[Мастер установки модуля "{a
 .Выбор устанавливаемых компонентов
 image::install-server-components.png[Выбор устанавливаемых компонентов]
 +
-include::new-admin-console@platform:admin:partial$install-components.adoc[]
+include::6.1@platform:admin:partial$install-components.adoc[]
 +
 ****
 Общие компоненты::
@@ -105,12 +105,12 @@ image::install-ext-components.png[Выбор устанавливаемых ко
 . Нажмите на кнопку *Установить* и дождитесь завершения установки модуля.
 . Нажмите на кнопку *Готово*, чтобы закрыть мастер установки.
 +
-include::new-admin-console@install-linux:ROOT:partial$restart-and-db.adoc[]
+include::dv6@install-linux:ROOT:partial$restart-and-db.adoc[]
 
 [#solutions]
 == Импорт решений
 
-. Решения с web-разметками включены в комплект поставки. Для работы с модулем {em} в {of-mc} загрузите стандартные решения {wc}а, см. подробнее "xref:dev@mgmtconsole:servers:webclient-solutions.adoc[]" в документации {of-mc}.
+. Решения с web-разметками включены в комплект поставки. Для работы с модулем {em} в {of-mc} загрузите стандартные решения {wc}а, см. подробнее "xref:6.2@mgmtconsole:servers:webclient-solutions.adoc[]" в документации {of-mc}.
 
 [#uninstall]
 == Удаление модуля
