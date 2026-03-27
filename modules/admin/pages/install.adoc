@@ -19,7 +19,7 @@ include::6.1@workerservice::partial$excerpts.adoc[tags=before-install]
 
 --
 :wt: archivemanagement*
-. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:new-admin-console@webclient:admin:install-server.adoc[]".
+. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:6.1@webclient:admin:install-server.adoc[]".
 +
 include::6.1@platform:admin:partial$install.adoc[]
 --
