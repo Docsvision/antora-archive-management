@@ -18,8 +18,8 @@ include::6.1@workerservice::partial$excerpts.adoc[tags=before-install]
 == Установка модуля на сервер под управлением Linux
 
 --
-:wt: archivemanagement
-. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:6.1@webclient:admin:install-server.adoc[]".
+:wt: archivemanagement*
+. Если модуль {wc} не установлен, установите {wc} версии {wc-cu-mc}, инструкция по установке приведена в документации модуля {wc}, раздел "xref:new-admin-console@webclient:admin:install-server.adoc[]".
 +
 include::6.1@platform:admin:partial$install.adoc[]
 --
@@ -29,7 +29,6 @@ include::6.1@platform:admin:partial$install.adoc[]
 
 --
 :wt: ext-archive-webc
-. Если модуль {wc} не установлен, установите {wc}а, инструкция по установке приведена в документации модуля {wc}, раздел "xref:6.1@webclient:admin:install-server.adoc[]".
 . На сервере {wc}а установите _Расширение {am} {wc}а_:
 
 include::6.1@platform:admin:partial$install.adoc[tags=commands]
