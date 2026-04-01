@@ -1,6 +1,6 @@
 name: archivemgmt
-version: '6.1'
-prerelease: false
+version: 'new-admin-console'
+prerelease: true
 title: Управление архивом
 asciidoc:
   attributes:
