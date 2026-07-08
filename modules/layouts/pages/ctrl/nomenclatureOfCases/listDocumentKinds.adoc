@@ -2,7 +2,7 @@
 
 == Свойства
 
-include::6.1@webclient:layouts:partial$properties.adoc[tags=general]
+include::5.5.17@webclient:layouts:partial$properties.adoc[tags=general]
 
 === Поведение
 
