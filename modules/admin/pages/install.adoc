@@ -108,7 +108,7 @@ include::dv6@install-linux:ROOT:partial$restart-and-db.adoc[]
 [#solutions]
 == Импорт решений
 
-. Решения с web-разметками включены в комплект поставки. Для работы с модулем {em} в {of-mc} загрузите стандартные решения {wc}а, см. подробнее "xref:6.2@mgmtconsole:servers:webclient-solutions.adoc[]" в документации {of-mc}.
+. Решения с web-разметками включены в комплект поставки. Для работы с модулем {am} в {of-mc} загрузите стандартные решения {wc}а, см. подробнее "xref:6.2@mgmtconsole:servers:webclient-solutions.adoc[]" в документации {of-mc}.
 
 [#uninstall]
 == Удаление модуля
